@@ -27,7 +27,7 @@ function Hero() {
     return (
         <section className='hero'>
             <div className='hero-content'>
-                <h1 className='hero-heading hero-heading--lg'>
+                <h1 className='hero-heading'>
                     <span>Obtenha Conselhos de Especialistas</span> Instantaneamente
                 </h1>
 
@@ -37,8 +37,8 @@ function Hero() {
 
                 <div className="hero-buttons max-w-[464px] text-center">
                     <div className="hero-buttons-container hero-buttons-container--sm flex gap-[20px]">
-                        <Button background="transparent" color="white" width="220px" height="58px" content="Encontre um especialista" border="1px solid white" />
-                        <Button background="white" color="black" width="230px" height="58px" content="Torne-se um Especialista" />
+                        <Button background="transparent" color="white" width="220px" height="58px" content="Encontre um especialista" fontSize="16px" border="1px solid white" />
+                        <Button background="white" color="black" width="230px" height="58px" content="Torne-se um Especialista" fontSize="16px"/>
                     </div>
 
                     <p className='hero-or text-center mt-[25px] text-3xl'>Ou</p>
@@ -55,7 +55,7 @@ function Hero() {
             </div>
 
             <div className='hero-gallery'>
-                <div className="grid grid-cols-2 grid-rows-[173px_173px_173px_173px] gap-x-[20px] gap-y-[16px] sm:grid-rows-[244px_244px_244px_244px] md:grid-cols-[344px_344px] md:grid-rows-[344px_344px_344px_344px] lg:grid-cols-[212px_212px] lg:grid-rows-[212px_212px_212px_212px] xl:grid-cols-[212px_212px_212px]">
+                <div className="grid grid-cols-2 grid-rows-[173px_173px_173px_173px] gap-x-[20px] gap-y-[16px] sm:grid-rows-[244px_244px_244px_244px] md:grid-cols-[344px_344px] md:grid-rows-[344px_344px_344px_344px] lg:grid-cols-[212px_212px] lg:grid-rows-[212px_212px_212px_212px] xl:grid-cols-[212px_212px_212px] justify-center itens-center">
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/chris-cuomo.png"
                         imageAlt="Chris Cuomo - Host at NewsNation"

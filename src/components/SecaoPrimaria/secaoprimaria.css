@@ -1,0 +1,40 @@
+@import url('../../App.css');
+
+.secaoprimaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.secaoprimaria__right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.secaoprimaria__right h1 {
+    font-size: 41px;
+    font-weight: 400;
+}
+
+.secaoprimaria__right h2 {
+    font-size: 32px;
+}
+
+.secaoprimaria__right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secaoprimaria__right li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.secaoprimaria__right li h3 {
+    font-size: 26px;
+}
