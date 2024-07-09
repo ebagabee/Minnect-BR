@@ -1,14 +1,14 @@
 @import url('../../App.css');
 
 .hero {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: flex;
     max-width: 1440px;
     flex-direction: column;
     gap: 128px;
     padding-top: 44px;
     padding-bottom: 44px;
+    justify-content: center;
 }
 
 @media (min-width: 640px) {

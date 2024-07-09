@@ -1,8 +1,29 @@
+import React, { useState, useEffect } from 'react';
 import './hero.css';
 import Button from '../Button';
 import Card from '../Card';
 
 function Hero() {
+    const [ryanGarciaImage, setRyanGarciaImage] = useState('https://minnect.com/wp-content/themes/betheme-child/img/home/hero/ryan-garcia.png');
+
+    useEffect(() => {
+        const handleResize = () => {
+            const newImageSrc = window.innerWidth >= 1280
+                ? 'https://minnect.com/wp-content/themes/betheme-child/img/home/hero/ryan-garcia.png'
+                : 'https://minnect.com/wp-content/themes/betheme-child/img/home/hero/ryan-garcia-square.png';
+
+            setRyanGarciaImage(newImageSrc);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <section className='hero'>
             <div className='hero-content'>
@@ -54,9 +75,9 @@ function Hero() {
                         description="Former State legislator, 2020 Presidential Candidate, US Army Reserve Lieutenant, Potential VP in 2024."
                     />
                     <Card
-                        imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/ryan-garcia.png"
+                        imageSrc={ryanGarciaImage}
                         imageAlt="Ryan Garcia - American Professional Boxer"
-                        imageClass="hidden h-full w-full xl:inline"
+                        imageClass="h-full w-full xl:inline"
                         gridClass="col-start-1 col-end-2 row-start-3 row-end-4 xl:col-start-3 xl:col-end-4 xl:row-start-1 xl:row-end-3"
                         name="Ryan Garcia"
                         title="American Professional Boxer"

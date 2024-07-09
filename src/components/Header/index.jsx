@@ -25,11 +25,6 @@ function Header() {
                 <a href="#">Perguntas Frequentes</a>
                 <a href="#">Carreiras</a>
             </nav>
-            <div className="menu-toggle" id="menu-toggle">
-                <div className="bar1"></div>
-                <div className="bar2"></div>
-                <div className="bar3"></div>
-            </div>
             <Button background="red" color="white" width="140px" height="40px" fontSize="16px" weight="400" content="Baixe o App" />
         </header>
     )
