@@ -1,60 +1,84 @@
 @import url('../../App.css');
 
 .hero {
-    font-family: "Manrope", sans-serif;
-    width: 80%;
-    margin: auto;
-    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-left {
-    display: flex;
+    max-width: 1440px;
     flex-direction: column;
-    gap: 20px;
-    max-width: 40%;
+    gap: 128px;
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 
-.hero-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    max-width: 60%;
+@media (min-width: 640px) {
+    .hero {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
 }
 
-.hero h1 {
-    color: #838383;
+@media (min-width: 1024px) {
+    .hero {
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .hero {
+        gap: 128px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+.hero-content {
+    flex: 1;
+    font-family: 'Manrope', sans-serif;
+}
+
+.hero-gallery {
+    flex: 1;
+}
+
+.hero-heading {
+    margin-bottom: 32px !important;
     font-size: 64px;
-    max-width: 200px;
 }
 
-.hero span {
-    color: #FFFFFF;
+.hero-heading span{
+    color: hsla(0, 0%, 100%, .5);
+    text-align: left;
 }
 
-.hero h4 {
-    color: #FFFFFF;
+.hero-paragraph {
+    margin-bottom: 32px;
     font-size: 26px;
-    font-weight: 200;
-    max-width: 500px;
+    font-weight: 300;
 }
 
-.hero h3 {
-    color: #FFFFFF;
-    font-size: 26px;
-    font-weight: 200;
-    text-align: center;
+.hero-buttons {
+    max-width: 464px;
+    margin: 0 auto;
 }
 
-.hero a {
-    text-decoration: none;
-    color: #FFFFFF;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #FFFFFF;
+.hero-buttons-container {
+    margin-bottom: 16px;
+    display: flex;
 }
 
-.hero a:hover {
-    color: #838383;
-}
+.hero-podcast-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    gap: 8px;
+    border-bottom: 1px solid white; 
+    padding-bottom: 4px; 
+    font-size: 1rem; 
+    transition: color 0.2s ease, border-color 0.2s ease; 
+    width: 95%;
+    font-weight: 600;
+  }
