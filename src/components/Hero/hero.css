@@ -1,0 +1,60 @@
+@import url('../../App.css');
+
+.hero {
+    font-family: "Manrope", sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 40%;
+}
+
+.hero-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 60%;
+}
+
+.hero h1 {
+    color: #838383;
+    font-size: 64px;
+    max-width: 200px;
+}
+
+.hero span {
+    color: #FFFFFF;
+}
+
+.hero h4 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 200;
+    max-width: 500px;
+}
+
+.hero h3 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.hero a:hover {
+    color: #838383;
+}

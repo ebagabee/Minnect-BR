@@ -1,3 +1,5 @@
+@import url('../../App.css');
+
 button {
     background-color: red;
     width: 200px;

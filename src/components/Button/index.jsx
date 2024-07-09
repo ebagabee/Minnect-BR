@@ -1,11 +1,13 @@
-import './button.module.css';
+import './button.css';
 
-function Button({ background, color, width, height, content }) {
+function Button({ background, color, width, height, content, weight, fontSize }) {
     const buttonStyle = {
         backgroundColor: background,
         color: color,
         width: width,
         height: height,
+        fontWeight: weight,
+        fontSize: fontSize,
         borderRadius: "8px",
         border: "none"
     }
