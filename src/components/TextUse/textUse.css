@@ -1,0 +1,26 @@
+@import url('../../App.css');
+
+.card-text-use {
+    background-color: #FFFFFF1A;
+    width: 500px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 25px;
+
+    font-family: 'Manrope', sans-serif;
+
+    border-radius: 15px;
+}
+
+.card-text-use h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-text-use p {
+    font-size: 18px;
+    font-weight: 400;
+}

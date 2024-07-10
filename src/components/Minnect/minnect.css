@@ -1,0 +1,30 @@
+@import url('../../App.css');
+
+.how-to-use {
+    margin-top: 100px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.how-to-use .title, .how-to-use .subtitle {
+    text-align: center;
+}
+
+.how-to-use .title {
+    font-size: 64px;
+}
+
+.how-to-use .subtitle {
+    font-size: 26px;
+}
+
+.mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 75px;
+}
+
+.how-to-use img {
+    width: 400px;
+}

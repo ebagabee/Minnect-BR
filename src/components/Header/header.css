@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #838383;
+    color: rgba(144, 255, 209, 0.494);
 }
 
 @media screen and (max-width: 1024px) {
