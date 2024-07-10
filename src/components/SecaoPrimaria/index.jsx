@@ -24,7 +24,9 @@ function SecaoPrimaria() {
                         <h3>Pague para garantir uma taxa de resposta de 100%.</h3>
                     </li>
                 </ul>
-                <Button background="white" color="black" width="230px" height="58px" content="Encontre um Especialista" />
+                <div className='secaoprimaria__botao'>
+                    <Button background="white" color="black" width="230px" height="58px" content="Encontre um Especialista" />
+                </div>
             </div>
         </section>
     )

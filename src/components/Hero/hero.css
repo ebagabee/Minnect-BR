@@ -99,4 +99,10 @@
     .hero-paragraph {
         font-size: 20px;
     }
+
+    .hero-buttons-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -66,4 +66,9 @@
     .secaoprimaria__right li h3{
         font-size: 20px;
     }
+
+    .secaoprimaria__botao {
+        display: flex;
+        justify-content: center;
+    }
 }

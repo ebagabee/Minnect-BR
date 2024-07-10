@@ -84,3 +84,12 @@
     font-size: 18px;
     font-weight: 300;
 }
+
+@media screen and (max-width: 767px) {
+    .secaosecundaria {
+        flex-direction: column;
+    }
+    .secaosecundaria__card {
+    width: 600px;
+    }
+}

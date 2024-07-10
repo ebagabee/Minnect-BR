@@ -1,6 +1,6 @@
 import './button.css';
 
-function Button({ background, color, width, height, content, weight, fontSize, border }) {
+function Button({ background, color, width, height, content, weight, fontSize, border, display }) {
     const buttonStyle = {
         backgroundColor: background,
         color: color,
@@ -10,7 +10,8 @@ function Button({ background, color, width, height, content, weight, fontSize, b
         fontSize: fontSize,
         borderRadius: "8px",
         border: border,
-        padding: "8px"
+        padding: "8px",
+        display: display || "block"
     }
 
     return (
