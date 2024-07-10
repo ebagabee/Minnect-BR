@@ -10,7 +10,7 @@ function Minnect() {
             <h1 className='title'>Como você pode usar o Minnect</h1>
             <p className='subtitle'>Obtenha respostas de um especialista usando nossas três opções simples de engajamento:</p>
 
-            <div className='mobile'>
+            <div className='mobile' id='mobile1'>
                 <TextUse
                     title="1 - Resposta por texto"
                     description="A opção mais econômica permite que você envie uma pergunta a um especialista e receba rapidamente uma resposta em texto com as informações que você precisa."
@@ -19,7 +19,7 @@ function Minnect() {
                 <img src={FirstMobile} alt="" />
             </div>
 
-            <div className='mobile'>
+            <div className='mobile' id='mobile2'>
                 <img src={SecondMobile} alt="" />
 
                 <TextUse
@@ -28,7 +28,7 @@ function Minnect() {
                 />
             </div>
 
-            <div className='mobile'>
+            <div className='mobile' id='mobile3'>
                 <TextUse
                     title="3 - Video chamada"
                     description="Obtenha respostas detalhadas e personalizadas às suas perguntas reservando um de nossos especialistas para uma chamada de vídeo individual. Nada supera uma ótima conversa!"

@@ -24,3 +24,18 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 767px) {
+    .card-text-use {
+        width: 90%;
+        height: 250px;
+    }        
+
+    .card-text-use h1 {
+        font-size: 30px;
+    }
+    
+    .card-text-use p {
+        font-size: 15px;
+    }
+}

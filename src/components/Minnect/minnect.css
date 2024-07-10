@@ -11,6 +11,7 @@
 
 .how-to-use .title {
     font-size: 64px;
+    font-weight: 600;
 }
 
 .how-to-use .subtitle {
@@ -27,4 +28,14 @@
 
 .how-to-use img {
     width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    #mobile1, #mobile3 {
+        flex-direction: column-reverse;
+    }      
+    
+    #mobile2 {
+        flex-direction: column;
+    }  
 }

@@ -1,5 +1,12 @@
 @import url('../../App.css');
 
+.talents__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .talents {
     display: flex;
     justify-content: center;
@@ -11,4 +18,8 @@
     .talents {
         flex-direction: column;
     }
+}
+
+.anchor {
+    display: inline-block;
 }
