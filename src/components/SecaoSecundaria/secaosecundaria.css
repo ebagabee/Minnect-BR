@@ -130,25 +130,22 @@
         margin-top: 100px;
     }
 
-    .secaoprimaria__left img {
-        width: 400px;
-    }
-
-    .secaoprimaria__right h1 {
+    .secaosecundaria__left h1 {
         font-size: 55px;
         max-width: 100%;
     }
     
-    .secaoprimaria__right h2 {
+    .secaosecundaria__left h2 {
         font-size: 36px;
+        padding-left: 2px;
     }
 
-    .secaoprimaria__right li h3{
+    .secaosecundaria__left li h3 {
         font-size: 25px;
         max-width: 100%;
     }
 
-    .secaoprimaria__botao {
+    .secaosecundaria__botao {
         display: flex;
         justify-content: center;
     }

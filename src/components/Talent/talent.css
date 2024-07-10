@@ -5,12 +5,31 @@
     align-items: flex-end;
     width: 100%;
     border-radius: 20px;
+    height: 300px;
+    
+}
+
+@media (max-width: 920px) {
+    .talent {
+        width: 230px;
+        height: 230px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .talent {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 .talent-about {
     width: 100%;
     padding: 8px;
     font-family: 'Manrope', sans-serif;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .talent-about h2 {
