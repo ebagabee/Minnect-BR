@@ -1,16 +1,26 @@
 import './talents.css';
-import Terrel from '../../assets/terrel-owens.png';
-import Patrick from '../../assets/patrick-bet.png';
-import Michael from '../../assets/michael-franzese.png';
+import Talent from '../Talent';
 
 function Talents() {
     return (
         <section className='talents'>
-            <div className='talents__container'>
-                <img src={Terrel} alt="Terrel Owens" />
-                <img src={Patrick} alt="Patrick Bet-David" />
-                <img src={Michael} alt="Michael Franzese" />
-            </div>
+            <Talent
+                background="https://minnect.com/wp-content/themes/betheme-child/img/home/podcast/terrell-owens.png"
+                name="Terrel Owens"
+                description="Receptor de Passe da NFL, Filantropo"
+            />
+
+            <Talent
+                background="https://minnect.com/wp-content/themes/betheme-child/img/home/podcast/patrick-bet-david.png"
+                name="Patrick Bet-David"
+                description="CEO e Fundador, Valuetainment"
+            />
+
+            <Talent
+                background="https://minnect.com/wp-content/themes/betheme-child/img/home/podcast/michael-franzese.png"
+                name="Michael Franzese"
+                description="Ex-membro feito da Família do Crime Organizado Colombo"
+            />
         </section>
     )
 }

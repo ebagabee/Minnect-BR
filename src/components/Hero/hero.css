@@ -49,6 +49,7 @@
 .hero-heading {
     margin-bottom: 32px !important;
     font-size: 64px;
+    font-weight: 700;
 }
 
 .hero-heading span {
@@ -84,4 +85,18 @@
     transition: color 0.2s ease, border-color 0.2s ease;
     width: 95%;
     font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        text-align: left;
+    }
+
+    .hero-heading {
+        font-size: 40px
+    }
+
+    .hero-paragraph {
+        font-size: 20px;
+    }
 }

@@ -1,0 +1,22 @@
+@import url('../../App.css');
+
+.talent {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.talent-about {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.talent-about h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.talent-about p {
+    font-size: 14px;
+}

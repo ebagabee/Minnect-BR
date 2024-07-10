@@ -47,3 +47,23 @@
     max-width: 85%;
     font-weight: 400;
 }
+
+@media screen and (max-width: 767px) {
+    .secaoprimaria {
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .secaoprimaria__left img {
+        width: 700px;
+    }
+
+    .secaoprimaria__right li img {
+        width: 40px;
+    }
+
+    .secaoprimaria__right li h3{
+        font-size: 20px;
+    }
+}
