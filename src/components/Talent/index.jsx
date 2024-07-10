@@ -3,7 +3,7 @@ import './talent.css';
 function Talent({ name, description, background }) {
     const talentStyle = {
         backgroundImage: `url(${background})`,
-        width: '300px',
+        width: '33%',
         height: '300px'
     }
 

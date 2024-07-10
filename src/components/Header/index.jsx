@@ -40,7 +40,7 @@ function Header() {
                 <a href="#">Perguntas Frequentes</a>
                 <a href="#">Carreiras</a>
             </nav>
-            <Button background="red" color="white" width="140px" height="40px" fontSize="16px" weight="400" content="Baixe o App" display={windowsWidth <= 1024 ? 'none' : ""}/>
+            <Button background="white" color="black" width="140px" height="40px" fontSize="16px" weight="400" content="Baixe o App" display={windowsWidth <= 1024 ? 'none' : ""}/>
         </header>
     )
 }

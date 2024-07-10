@@ -93,6 +93,26 @@
     }
 
     .hero-heading {
+        font-size: 30px
+    }
+
+    .hero-paragraph {
+        font-size: 20px;
+    }
+
+    .hero-buttons-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    .hero {
+        text-align: left;
+    }
+
+    .hero-heading {
         font-size: 40px
     }
 

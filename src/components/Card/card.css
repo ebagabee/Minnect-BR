@@ -29,10 +29,14 @@
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     background-color: white;
     background: linear-gradient(165deg, #2a2b39 48.63%, rgba(0, 0, 0, .5) 107.16%);;
+}
+
+.back-upper {
+    display: flex;
+    flex-direction: column;
 }

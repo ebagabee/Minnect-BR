@@ -62,8 +62,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-1 col-end-2 row-start-1 row-end-3"
                         name="Chris Cuomo"
-                        title="Host at NewsNation"
-                        description="Previously host of CNN’s Cuomo Prime Time, #1 show on the biggest media platform in the world. 20 years in media and politics. Multiple Emmy nominations."
+                        title="Apresentador na NewsNation"
+                        description="Anteriormente apresentador do Cuomo Prime Time da CNN, o programa número 1 na maior plataforma de mídia do mundo. 20 anos na mídia e política. Várias indicações ao Emmy"
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/tulsi-gabbard.png"
@@ -71,8 +71,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-1 col-end-2 row-start-4 row-end-5 xl:col-start-2 xl:col-end-3 xl:row-start-1 xl:row-end-2"
                         name="Tulsi Gabbard"
-                        title="Former US Representative"
-                        description="Former State legislator, 2020 Presidential Candidate, US Army Reserve Lieutenant, Potential VP in 2024."
+                        title="Ex-Representante dos EUA"
+                        description="Ex-legisladora, candidata presidencial em 2020, tenente da Reserva dos EUA, possível vice-presidente em 2024"
                     />
                     <Card
                         imageSrc={ryanGarciaImage}
@@ -80,8 +80,8 @@ function Hero() {
                         imageClass="h-full w-full xl:inline"
                         gridClass="col-start-1 col-end-2 row-start-3 row-end-4 xl:col-start-3 xl:col-end-4 xl:row-start-1 xl:row-end-3"
                         name="Ryan Garcia"
-                        title="American Professional Boxer"
-                        description="Former WBC interim lightweight champion, 25-1 record, notable victories over Devin Haney, Jayson Velez, Luke Campbell, Javier Fortuna, among others."
+                        title="Boxista Americano"
+                        description="Ex-campeão interino dos leves do WBC, recorde de 25-1, vitórias notáveis sobre Devin Haney, Jayson Velez, Luke Campbell, Javier Fortuna, entre outros"
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/thomas-ellsworth.png"
@@ -89,8 +89,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-2 col-end-3 row-start-4 row-end-5 xl:col-start-1 xl:col-end-2 xl:row-start-3 xl:row-end-4"
                         name="Thomas Ellsworth"
-                        title="Co-Host of PBD Podcast, Chief Strategy Officer"
-                        description="25+ years as founder/CEO/COO, excelling in growth/turnaround, disrupting industries. $1.5B+ exits achieved."
+                        title="Co-apresentador do PBD Podcast, Diretor de Estratégia"
+                        description="25+ anos como founder/CEO/COO, Experiência em vendas superiores a $1.5 bilhões."
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/patrick-bet-david.png"
@@ -98,8 +98,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-2 col-end-3 row-start-2 row-end-4"
                         name="Patrick Bet-David"
-                        title="CEO and Founder, Valuetainment"
-                        description='Born in Iran, Made In 🇺🇸 Entrepreneur since 10 years old 📚 Author of #1 WSJ Best Seller “Your Next Five Moves” 🌳Lifelong Synergist.'
+                        title="CEO e fundador da Valuetainment"
+                        description='Nascido no Irã, criado nos EUA Empreendedor desde os 10 anos 📚 Autor do best-seller #1 do WSJ "Your Next Five Moves" 🌳 Sinergista ao longo da vida.'
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/sage-steele.png"
@@ -107,8 +107,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-2 col-end-3 row-start-1 row-end-2 xl:col-start-3 xl:col-end-4 xl:row-start-3 xl:row-end-4"
                         name="Sage Steele"
-                        title="Former ESPN Host"
-                        description="16 year tenure as host of SportsCenter on ESPN, journalist, and host of The Sage Steele Show."
+                        title="Ex apresentadora do ESPN"
+                        description="16 anos como apresentadora do SportsCenter na ESPN, jornalista e apresentador do The Sage Steele Show"
                     />
                 </div>
             </div>

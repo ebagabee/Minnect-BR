@@ -85,6 +85,17 @@
     font-weight: 300;
 }
 
+@media (max-width: 1290px) {
+    .secaosecundaria {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secaosecundaria__card {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .secaosecundaria {
         flex-direction: column;
@@ -109,5 +120,36 @@
 
     .secaosecundaria__left li h3 {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .secaoprimaria {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .secaoprimaria__left img {
+        width: 400px;
+    }
+
+    .secaoprimaria__right h1 {
+        font-size: 55px;
+        max-width: 100%;
+    }
+    
+    .secaoprimaria__right h2 {
+        font-size: 36px;
+    }
+
+    .secaoprimaria__right li h3{
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    .secaoprimaria__botao {
+        display: flex;
+        justify-content: center;
     }
 }

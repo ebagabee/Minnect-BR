@@ -20,6 +20,12 @@
     }
 }
 
+@media (max-width: 1010px) {
+    .talents__container {
+        max-width: 100%;
+    }
+}
+
 .anchor {
     display: inline-block;
 }
