@@ -1,0 +1,86 @@
+@import url('../../App.css');
+
+.secaosecundaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.secaosecundaria__left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.secaosecundaria__left h1 {
+    font-size: 45px;
+    font-weight: 600;
+    max-width: 85%;
+}
+
+.secaosecundaria__left h2 {
+    font-size: 32px;
+}
+
+.secaosecundaria__left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secaosecundaria__left li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.secaosecundaria__left li h3 {
+    font-size: 26px;
+    max-width: 85%;
+    font-weight: 400;
+}
+
+.secaosecundaria__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secaosecundaria__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    width: 700px;
+    height: 250px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 50px;
+    gap: 30px;
+}
+
+.secaosecundaria__card img{
+    width: 123px;
+    height: 123px;
+    border-radius: 20px;
+}
+
+.secaosecundaria__card div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.secaosecundaria div p {
+    color: #FFFFFF;
+    font-weight: 600;
+    max-width: 600px;
+}
+
+.secaosecundaria div span {
+    font-size: 18px;
+    font-weight: 300;
+}

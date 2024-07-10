@@ -1,0 +1,35 @@
+@import url('../../App.css');
+
+.secaoterciaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 100px auto;
+}
+
+ .secaoterciaria__left {
+   display: flex;
+   flex-direction: column;
+   gap: 20px; 
+   width: 50%;
+}
+
+.secaoterciaria__left h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+} 
+
+.secaoterciaria__left span {
+    color: #838383;
+}
+
+.secaoterciaria__left p {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.secaoterciaria__right img {
+    width: 700px;
+}

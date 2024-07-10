@@ -1,0 +1,13 @@
+@import url('../../App.css');
+
+.talents__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.talents__container img {
+    width: 270px;
+    border-radius: 20px;
+}

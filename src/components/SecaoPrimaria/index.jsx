@@ -12,19 +12,19 @@ function SecaoPrimaria() {
             </div>
             <div className='secaoprimaria__right'>
                 <h1>Transforme qualquer celebridade em seu mentor pessoal em segundos</h1> 
-                <h2>Stop searching for answers on Google.</h2>
-                <h2>Stop getting your DMs ignored.</h2>
+                <h2>Pare de procurar respostas no Google.</h2>
+                <h2>Pare de fazer com que suas DMs sejam ignoradas.</h2>
                 <ul>
                     <li>
                         <img src={Check} alt="Check" />
-                        <h3>Get personalized advice and 1-1 coaching from the people you admire the most.</h3>
+                        <h3>Obtenha aconselhamento personalizado e treinamento individual das pessoas que você mais admira.</h3>
                     </li>
                     <li>
                         <img src={Check} alt="Check" />
-                        <h3>Pay to guarantee 100% response rate.</h3>
+                        <h3>Pague para garantir uma taxa de resposta de 100%.</h3>
                     </li>
                 </ul>
-                <Button background="white" color="black" width="230px" height="58px" content="Torne-se um Especialista" />
+                <Button background="white" color="black" width="230px" height="58px" content="Encontre um Especialista" />
             </div>
         </section>
     )

@@ -5,7 +5,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    gap: 50px;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.secaoprimaria__left img {
+    width: 800px;
 }
 
 .secaoprimaria__right {
@@ -15,8 +21,9 @@
 }
 
 .secaoprimaria__right h1 {
-    font-size: 41px;
-    font-weight: 400;
+    font-size: 45px;
+    font-weight: 600;
+    max-width: 85%;
 }
 
 .secaoprimaria__right h2 {
@@ -32,9 +39,11 @@
 .secaoprimaria__right li {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
 }
 
 .secaoprimaria__right li h3 {
     font-size: 26px;
+    max-width: 85%;
+    font-weight: 400;
 }
