@@ -31,6 +31,16 @@
 }
 
 @media screen and (max-width: 767px) {
+    .how-to-use {
+        margin: 100px auto;
+        width: 90%;
+    }
+
+    .how-to-use .title {
+        font-size: 54px;
+        font-weight: 600;
+    }
+
     #mobile1, #mobile3 {
         flex-direction: column-reverse;
     }      
