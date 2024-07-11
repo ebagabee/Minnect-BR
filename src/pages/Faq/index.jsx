@@ -12,9 +12,9 @@ function Faq() {
                 <h1 className="faq-title">Confira as respostas às perguntas frequentes</h1>
 
                 <div className="faq-buttons">
-                    <Button content="Questoes Gerais" width="33%" radius="28px" height="90px" color="#fff" weight="700" />
-                    <Button content="Perguntas de Especialistas" width="33%" radius="28px" height="90px" color="#fff" weight="700" />
-                    <Button content="Questoes de Usuarios" width="33%" radius="28px" height="90px" color="#fff" weight="700" />
+                    <Button content="Questoes Gerais" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
+                    <Button content="Perguntas de Especialistas" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
+                    <Button content="Questoes de Usuarios" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
                 </div>
 
                 <div className="faq-general">
