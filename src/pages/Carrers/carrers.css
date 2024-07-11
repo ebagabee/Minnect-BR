@@ -1,0 +1,34 @@
+.carreiras {
+    width: 70%;
+    margin: auto;
+} 
+
+.carreiras h1 {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffffbb;
+}
+
+.carreiras h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.carreiras ul {
+    list-style-position: inside;
+    list-style: circle;
+    padding-left: 1.5%;
+}
+
+.carreiras div {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .carreiras {
+        width: 85%;
+    }
+}

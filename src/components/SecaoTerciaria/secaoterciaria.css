@@ -58,13 +58,13 @@
         display: flex;
         justify-content: center;
     }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
     .secaoterciaria {
         flex-direction: column;
         width: 90%;
-        border: solid;
     }
 
     .secaoterciaria__left {
@@ -84,5 +84,9 @@
     .secaoterciaria__botao {
         display: flex;
         justify-content: center;
+    }
+
+    .secaoterciaria__right img {
+        width: 400px;
     }
 }
