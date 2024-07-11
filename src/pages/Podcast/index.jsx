@@ -32,16 +32,18 @@ function Podcast() {
                 <div className='browse-speakers'>
                     <h1>Procure Palestrantes em Todos os Tópicos e Setores</h1>
                     <div className='browse__cards'>
-                        <Card1 />
-                        <Card1 />
-                        <Card1 />
-                        <Card1 />
-                        <div>
-                            <Card1 />
-                            <Card1 />
-                            <Card1 />
-                            <Card1 />
+                        <div className='browse__cards-up'>
+                            <Card1 texto="Negócios"/>
+                            <Card1 texto="Empreendedorismo"/>
+                            <Card1 texto="Saúde e Bem Estar"/>
+                            <Card1 texto="Meios de Comuinicação"/>
                         </div>
+                        <div className='browse__cards-down'>
+                            <Card1 texto="Esportes"/>
+                            <Card1 texto="Política"/>
+                            <Card1 texto="Comédia"/>
+                            <Card1 texto="+ muito mais!"/>
+                        </div>    
                     </div>
                     <div className='browse-speakers__btn'>
                         <Button background="white" color="#45908f" width="230px" height="58px" content="Reserve seu próximo palestrante convidado" fontSize="16px"/>

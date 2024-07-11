@@ -45,7 +45,7 @@ function Press() {
             Configure seu perfil de especialista no Minnect, defina suas taxas e comece a monetizar seu tempo e experiência.
             </p>
             <div className='press-text__btn'>
-                <Button  background="white" color="#2a7f91" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px" />
+                <Button  background="white" color="#2a7f91" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px" weight="600"/>
             </div>
             </section>
             <Slide />

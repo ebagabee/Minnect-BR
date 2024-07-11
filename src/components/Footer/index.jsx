@@ -3,6 +3,13 @@ import icon from '../../assets/icon.svg'
 import arrowUp from '../../assets/arrow-up.svg'
 
 function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <footer>
             <div className='up-footer'>
@@ -17,7 +24,7 @@ function Footer() {
                     <a href="">FAQ</a>
                 </nav>
 
-                <div className='arrow-up'>
+                <div className='arrow-up' onClick={scrollToTop}>
                     <img src={arrowUp} alt="arrow-up" />
                 </div>
             </div>
