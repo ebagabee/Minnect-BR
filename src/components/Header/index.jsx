@@ -41,7 +41,7 @@ function Header() {
                 <a href="#">Entre os Melhores</a>
                 <Link to="/become" className={location.pathname === "/become" ? 'active-link' : ''}>Torne-se um Especialista</Link>
                 <a href="#">Reservar um Podcast</a>
-                <a href="#">Imprensa</a>
+                <Link to="/imprensa" className={location.pathname === "/imprensa" ? 'active-link' : ''}>Imprensa</Link>
                 <Link to="/faq" className={location.pathname === "/faq" ? 'active-link' : ''}>Perguntas Frequentes</Link>
                 <Link to="/carreiras" className={location.pathname === "/carreiras" ? 'active-link' : ''}>Carreiras</Link>
             </nav>
