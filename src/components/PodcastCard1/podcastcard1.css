@@ -1,0 +1,9 @@
+@import url('../../App.css');
+
+.podcastcard1 {
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff2e;
+    border-radius: 50px;
+    color: #FFFFFF;
+}

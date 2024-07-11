@@ -4,6 +4,7 @@ import Footer from '../../components/Footer';
 import Button from '../../components/Button';
 import { useEffect } from 'react';
 import Microfone from '../../assets/podcast.png';
+import Card1 from '../../components/PodcastCard1';
 
 function Podcast() {
     useEffect(() => {
@@ -30,6 +31,18 @@ function Podcast() {
                 </div>
                 <div className='browse-speakers'>
                     <h1>Procure Palestrantes em Todos os Tópicos e Setores</h1>
+                    <div className='browse__cards'>
+                        <Card1 />
+                        <Card1 />
+                        <Card1 />
+                        <Card1 />
+                        <div>
+                            <Card1 />
+                            <Card1 />
+                            <Card1 />
+                            <Card1 />
+                        </div>
+                    </div>
                     <div className='browse-speakers__btn'>
                         <Button background="white" color="#45908f" width="230px" height="58px" content="Reserve seu próximo palestrante convidado" fontSize="16px"/>
                     </div>

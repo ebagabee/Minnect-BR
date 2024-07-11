@@ -2,6 +2,7 @@ import './header.css';
 import Button from '../Button';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu';
 
 function Header() {
     const [windowsWidth, setWindowWidth] = useState(window.innerWidth);
@@ -19,6 +20,15 @@ function Header() {
         };
     }, []);
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleStateChange = (state) => {
+        setMenuOpen(state.isOpen);
+    };
+
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
 
     return (
         <header>
@@ -37,15 +47,32 @@ function Header() {
                     </svg>
                 </Link>
             </div>
-            <nav>
-                <Link to="/podcast" className={location.pathname === "/podcast" ? 'active-link' : ''}>Reserve um Podcast</Link>
-                <Link to="/become" className={location.pathname === "/become" ? 'active-link' : ''}>Torne-se um Especialista</Link>
-                <Link to="/imprensa" className={location.pathname === "/imprensa" ? 'active-link' : ''}>Imprensa</Link>
-                <Link to="/faq" className={location.pathname === "/faq" ? 'active-link' : ''}>Perguntas Frequentes</Link>
-                <Link to="/carreiras" className={location.pathname === "/carreiras" ? 'active-link' : ''}>Carreiras</Link>
-            </nav>
+
+            {windowsWidth <= 1084 ? (
+                <Menu
+                    right
+                    isOpen={menuOpen}
+                    onStateChange={handleStateChange}
+                    customCrossIcon={<svg width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M18.36 6.64c-.78-.78-2.05-.78-2.83 0L12 10.17l-3.53-3.53c-.78-.78-2.05-.78-2.83 0s-.78 2.05 0 2.83L9.17 12l-3.53 3.53c-.78.78-.78 2.05 0 2.83s2.05.78 2.83 0L12 13.83l3.53 3.53c.78.78 2.05.78 2.83 0s.78-2.05 0-2.83L14.83 12l3.53-3.53c.78-.78.78-2.05 0-2.83z"></path></svg>}
+                >
+                    <Link to="/" onClick={closeMenu} className={location.pathname === "/" ? "active-link" : ""}>Paginal Inicial</Link>
+                    <Link to="/podcast" onClick={closeMenu} className={location.pathname === "/podcast" ? "active-link" : ""}>Reserve um podcast</Link>
+                    <Link to="/become" onClick={closeMenu} className={location.pathname === "/become" ? "active-link" : ""}>Torne-se um especialista</Link>
+                    <Link to="/imprensa" onClick={closeMenu} className={location.pathname === "/imprensa" ? "active-link" : ""}>Imprensa</Link>
+                    <Link to="/faq" onClick={closeMenu} className={location.pathname === "/faq" ? "active-link" : ""}>Perguntas Frequentes</Link>
+                    <Link to="/carreiras" onClick={closeMenu} className={location.pathname === "/carreiras" ? "active-link" : ""}>Carreiras</Link>
+                </Menu>
+            ) : (
+                <nav className='nav-main'>
+                    <Link to="/podcast" className={location.pathname === "/podcast" ? 'active-link' : ''}>Reserve um Podcast</Link>
+                    <Link to="/become" className={location.pathname === "/become" ? 'active-link' : ''}>Torne-se um Especialista</Link>
+                    <Link to="/imprensa" className={location.pathname === "/imprensa" ? 'active-link' : ''}>Imprensa</Link>
+                    <Link to="/faq" className={location.pathname === "/faq" ? 'active-link' : ''}>Perguntas Frequentes</Link>
+                    <Link to="/carreiras" className={location.pathname === "/carreiras" ? 'active-link' : ''}>Carreiras</Link>
+                </nav>
+            )}
             <Button background="white" color="black" width="140px" height="40px" fontSize="16px" weight="400" content="Baixe o App" display={windowsWidth <= 1084 ? 'none' : ""} />
-            
+
         </header>
     )
 }
