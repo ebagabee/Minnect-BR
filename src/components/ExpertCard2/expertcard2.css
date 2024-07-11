@@ -1,11 +1,21 @@
 .expertcard2 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     gap: 30px;
     background-color: #ffffff2e;
-    width: 400px;
+    width: 300px;
     height: 150px;
     gap: 10px;
     padding: 20px;
     border-radius: 20px;
+}
+
+.expertcard-number {
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }

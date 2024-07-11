@@ -29,7 +29,7 @@ function BecomeExpert() {
                 Obtenha informações valiosas sobre o seu público. Você terá mais clareza sobre quais aspectos do seu conhecimento e experiência os outros mais valorizam. Use esse feedback para se tornar ainda mais eficaz na entrega de valor aos outros." />
                 <ExpertCard1 titulo="Ganhar" paragrafo="Seu tempo é valioso. Minnect permite que você monetize seu tempo. Escolha quando você trabalha e quanto vale o seu tempo. Crie um novo fluxo de receita e ao mesmo tempo agregue valor a outros!" />
             </div>
-            <h1>Como Funciona</h1>
+            <h1 className='expert-funciona'>Como Funciona</h1>
             <div className='expert-cards2'>
                 <ExpertCard2 numero="1" texto="Crie um perfil que expresse claramente o valor que você pode oferecer" />
                 <ExpertCard2 numero="2" texto="Defina sua disponibilidade para que você possa responder perguntas conforme sua conveniência" />

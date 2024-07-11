@@ -20,7 +20,7 @@
 
 .becomeexpert__hero-left h1 {
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     color: #ffffffa7;
 }
 
@@ -48,6 +48,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.expert-funciona {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    .becomeexpert {
+        width: 90%;
+    }
+
+    .becomeexpert__hero {
+        flex-direction: column;
+    }
+    
+.becomeexpert__hero-left {
+    width: 100%;
+}
+
+.becomeexpert__hero-left p {
+    font-size: 22px;
+}
+
+.expert-cards1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     gap: 20px;
+}
+
+.expert-cards2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.expert-funciona {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}
 }

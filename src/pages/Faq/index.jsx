@@ -7,7 +7,7 @@ import './faq.css'
 function Faq() {
     return (
         <>
-            <Header />
+            <Header/>
             <div className="container-faq">
                 <h1 className="faq-title">Confira as respostas às perguntas frequentes</h1>
 
