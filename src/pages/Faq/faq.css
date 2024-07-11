@@ -1,0 +1,20 @@
+.container-faq {
+    width: 60%;
+    background-color: #fff;
+    margin: 50px auto;
+    color: #000;
+    border-radius: 28px;
+    padding: 80px;
+}
+
+.container-faq .faq-title {
+    font-size: 36px;
+}
+
+.faq-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

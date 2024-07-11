@@ -36,7 +36,7 @@ function Header() {
             </div>
             <nav>
                 <a href="#">Entre os Melhores</a>
-                <a href="#">Torne-se um Especialista</a>
+                <a href="/become">Torne-se um Especialista</a>
                 <a href="#">Reservar um Podcast</a>
                 <a href="#">Imprensa</a>
                 <a href="/faq">Perguntas Frequentes</a>
