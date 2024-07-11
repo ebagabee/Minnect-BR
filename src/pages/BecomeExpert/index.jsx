@@ -6,8 +6,13 @@ import Fabiola from '../../assets/fabiola.png';
 import Button from '../../components/Button';
 import ExpertCard1 from '../../components/ExpertCard1';
 import ExpertCard2 from '../../components/ExpertCard2';
+import { useEffect } from 'react';
 
 function BecomeExpert() {
+    useEffect(() => {
+        document.title = 'Torne-se um especialista - Minnect';
+    }, []);
+
     return (
         <>
             <Header />
@@ -16,10 +21,10 @@ function BecomeExpert() {
                     <div className='becomeexpert__hero-left'>
                         <h1>Torne-se um <span>Expert</span></h1>
                         <p>O Minnect conecta você àqueles que mais se beneficiarão com seu conhecimento e experiência únicos. Ser um especialista significa ajudar os outros e ao mesmo tempo reconhecer o valor do seu tempo.</p>
-                        <Button background="white" color="black" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px"/>
+                        <Button background="white" color="black" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px" />
                     </div>
                     <div className='becomeexpert__hero-right'>
-                        <img src={Fabiola} alt="Imagem do Banner"/>
+                        <img src={Fabiola} alt="Imagem do Banner" />
                     </div>
                 </div>
             </section>

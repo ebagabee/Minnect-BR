@@ -91,3 +91,27 @@
     font-weight: 700;
 }
 }
+
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+    .becomeexpert {
+        width: 90%;
+    }
+
+    .becomeexpert__hero img {
+        width: 800px;
+    }
+    
+
+.expert-cards1 {
+    flex-direction: column;
+
+}
+
+.expert-cards2 {
+    width: 90%;
+}
+
+.expert-cards2 p {
+    font-size: 14px;
+}
+}

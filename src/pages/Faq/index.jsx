@@ -2,9 +2,14 @@ import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Question from "../../components/Question";
+import { useEffect } from "react";
 import './faq.css'
 
 function Faq() {
+    useEffect(() => {
+        document.title = 'FAQ - Minnect';
+      }, []);
+
     return (
         <>
             <Header/>
