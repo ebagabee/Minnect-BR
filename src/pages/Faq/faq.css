@@ -18,3 +18,11 @@
     align-items: center;
     gap: 30px;
 }
+
+.faq-general {
+    margin-top: 25px;
+}
+
+.faq-general .second, .faq-general .thirth {
+    margin-top: 25px;
+}

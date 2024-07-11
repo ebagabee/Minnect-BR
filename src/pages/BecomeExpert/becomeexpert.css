@@ -1,0 +1,53 @@
+.becomeexpert {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.becomeexpert__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.becomeexpert__hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 30px;
+}
+
+.becomeexpert__hero-left h1 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffffa7;
+}
+
+.becomeexpert__hero-left span {
+    color: #ffffff;
+}
+
+.becomeexpert__hero-left p {
+    font-size: 25px;
+}
+
+.expert-cards1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.expert-cards2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}

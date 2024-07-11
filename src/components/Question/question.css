@@ -1,0 +1,54 @@
+@import url('../../App.css');
+
+.question-h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.question-container {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.question-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-number {
+    color: #e60000;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.title-text {
+    font-size: 1.2em;
+    color: #333;
+    flex: 1;
+}
+
+.toggle-button {
+    font-size: 1.5em;
+    color: #e60000;
+}
+
+.answer {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.answer p {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
