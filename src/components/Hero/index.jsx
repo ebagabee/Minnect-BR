@@ -72,7 +72,7 @@ function Hero() {
                         gridClass="col-start-1 col-end-2 row-start-4 row-end-5 xl:col-start-2 xl:col-end-3 xl:row-start-1 xl:row-end-2"
                         name="Tulsi Gabbard"
                         title="Ex-Representante dos EUA"
-                        description="Ex-legisladora, candidata presidencial em 2020, tenente da Reserva dos EUA, possível vice-presidente em 2024"
+                        description="possível vice-presidente em 2024"
                     />
                     <Card
                         imageSrc={ryanGarciaImage}
@@ -81,7 +81,7 @@ function Hero() {
                         gridClass="col-start-1 col-end-2 row-start-3 row-end-4 xl:col-start-3 xl:col-end-4 xl:row-start-1 xl:row-end-3"
                         name="Ryan Garcia"
                         title="Boxista Americano"
-                        description="Ex-campeão interino dos leves do WBC, recorde de 25-1, vitórias notáveis sobre Devin Haney, Jayson Velez, Luke Campbell, Javier Fortuna, entre outros"
+                        description="Ex-campeão interino dos leves do WBC"
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/thomas-ellsworth.png"
@@ -89,8 +89,8 @@ function Hero() {
                         imageClass="h-full w-full"
                         gridClass="col-start-2 col-end-3 row-start-4 row-end-5 xl:col-start-1 xl:col-end-2 xl:row-start-3 xl:row-end-4"
                         name="Thomas Ellsworth"
-                        title="Co-apresentador do PBD Podcast, Diretor de Estratégia"
-                        description="25+ anos como founder/CEO/COO, Experiência em vendas superiores a $1.5 bilhões."
+                        title="Diretor de Estratégia"
+                        description="25+ anos como founder/CEO/COO"
                     />
                     <Card
                         imageSrc="https://minnect.com/wp-content/themes/betheme-child/img/home/hero/patrick-bet-david.png"
@@ -108,7 +108,7 @@ function Hero() {
                         gridClass="col-start-2 col-end-3 row-start-1 row-end-2 xl:col-start-3 xl:col-end-4 xl:row-start-3 xl:row-end-4"
                         name="Sage Steele"
                         title="Ex apresentadora do ESPN"
-                        description="16 anos como apresentadora do SportsCenter na ESPN, jornalista e apresentador do The Sage Steele Show"
+                        description="jornalista e apresentadora do The Sage Steele Show"
                     />
                 </div>
             </div>

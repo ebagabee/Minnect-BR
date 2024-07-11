@@ -49,3 +49,24 @@
         flex-direction: column;
     }  
 }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .how-to-use {
+        margin: 100px auto;
+        width: 90%;
+    }
+
+    
+    .how-to-use .title {
+        font-size: 54px;
+        font-weight: 600;
+    }
+
+    #mobile1, #mobile3 {
+        flex-direction: column-reverse;
+    }      
+    
+    #mobile2 {
+        flex-direction: column;
+    }  
+}

@@ -64,11 +64,11 @@
     .secaoterciaria {
         flex-direction: column;
         width: 90%;
+        border: solid;
     }
 
     .secaoterciaria__left {
         width: 100%;
-        border: solid;
     }
 
     .secaoterciaria__left h1 {
