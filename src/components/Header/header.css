@@ -23,14 +23,24 @@ nav a {
 }
 
 nav a:hover {
-    color: rgba(144, 255, 209, 0.494);
+    color: #88dceb;
 }
 
 .active-link {
-    color: rgba(144, 255, 209, 0.494);
+    color: #88dceb;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1215px) {
+    header {
+        padding: 0 20px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1084px) {
     header {
         padding: 0 20px;
     }

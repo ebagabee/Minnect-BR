@@ -17,7 +17,7 @@
 }
 
 .title-number {
-    color: #e60000;
+    color: #2e7e93;
     font-size: 1em;
     margin-right: 10px;
 }
@@ -30,7 +30,7 @@
 
 .toggle-button {
     font-size: 1.5em;
-    color: #e60000;
+    color: #2e7e93;
 }
 
 .answer {
@@ -51,4 +51,10 @@
 
 .link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .question-h1 {
+        font-size: 1.7em;
+    }
 }

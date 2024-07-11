@@ -21,7 +21,7 @@ function BecomeExpert() {
                     <div className='becomeexpert__hero-left'>
                         <h1>Torne-se um <span>Expert</span></h1>
                         <p>O Minnect conecta você àqueles que mais se beneficiarão com seu conhecimento e experiência únicos. Ser um especialista significa ajudar os outros e ao mesmo tempo reconhecer o valor do seu tempo.</p>
-                        <Button background="white" color="black" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px" />
+                        <Button background="white" color="#45908f" width="230px" height="58px" content="Junte-se como um especialista" fontSize="16px"/>
                     </div>
                     <div className='becomeexpert__hero-right'>
                         <img src={Fabiola} alt="Imagem do Banner" />

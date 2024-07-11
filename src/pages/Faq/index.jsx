@@ -17,9 +17,9 @@ function Faq() {
                 <h1 className="faq-title">Confira as respostas às perguntas frequentes</h1>
 
                 <div className="faq-buttons">
-                    <Button content="Questoes Gerais" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
-                    <Button content="Perguntas de Especialistas" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
-                    <Button content="Questoes de Usuarios" width="33%" radius="28px" height="90px" color="#fff" weight="700" background="#FF0000"/>
+                    <Button content="Questoes Gerais" width="100%" radius="28px" height="90px" color="#fff" weight="700" background="#45908fbb"/>
+                    <Button content="Perguntas de Especialistas" width="100%" radius="28px" height="90px" color="#fff" weight="700" background="#45908fbb"/>
+                    <Button content="Questoes de Usuarios" width="100%" radius="28px" height="90px" color="#fff" weight="700" background="#45908fbb"/>
                 </div>
 
                 <div className="faq-general">
@@ -28,8 +28,7 @@ function Faq() {
                             title="Perguntas gerais"
                             number="1"
                             text="Em quais países o Minnect está disponível"
-                            answer="O aplicativo Minnect está disponível apenas nos EUA e Canadá. Se você estiver em qualquer outro lugar, não conseguirá fazer o download ou o aplicativo não funcionará corretamente. Estamos trabalhando ativamente para lançar o aplicativo em outros países. Você pode enviar seu e-mail no formulário abaixo e assim que o Minnect estiver disponível no país selecionado iremos notificá-lo:"
-                            link="https://forms.gle/E12NNb8pHZuNitw17"
+                            answer="O aplicativo Minnect está disponível apenas nos EUA e Canadá. Se você estiver em qualquer outro lugar, não conseguirá fazer o download ou o aplicativo não funcionará corretamente. Estamos trabalhando ativamente para lançar o aplicativo em outros países. Você pode enviar seu e-mail no formulário abaixo e assim que o Minnect estiver disponível no país selecionado iremos notificá-lo."
                         />
                     </div>
 
@@ -38,10 +37,8 @@ function Faq() {
                             title="Perguntas de Especialistas"
                             number="1"
                             text="Estou tendo problemas para conectar minha conta bancária"
-                            answer="Você pode direcionar todas as dúvidas relacionadas à vinculação de contas bancárias ao nosso parceiro Stripe. Encontre respostas para suas perguntas no site da Stripe:"
-                            link="https://support.stripe.com/contact/email?skip_login=true"
+                            answer="Você pode direcionar todas as dúvidas relacionadas à vinculação de contas bancárias ao nosso parceiro Stripe. Encontre respostas para suas perguntas no site da Stripe."
                         />
-
                         <Question
                             number="2"
                             text="Posso reagendar uma chamada se minha programação mudar?"
@@ -63,7 +60,7 @@ function Faq() {
 
                     <div className="thirth">
                         <Question
-                            title="Perguntas de Usuarios"
+                            title="Perguntas de Usuários"
                             number="1"
                             text="Serei cobrado quando agendar uma ligação com um especialista ou fizer uma pergunta?"
                             answer="Quando você agenda uma ligação com um especialista ou faz uma pergunta, sua forma de pagamento é autorizada por um período de 5 dias. Durante esse período, se o especialista aceitar o seu pedido de reserva ou responder à sua pergunta, os fundos autorizados serão transferidos. Se a solicitação expirar, a autorização será removida."

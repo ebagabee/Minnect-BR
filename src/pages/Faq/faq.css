@@ -1,6 +1,6 @@
 .container-faq {
     width: 60%;
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 50px auto;
     color: #000;
     border-radius: 28px;
@@ -25,4 +25,19 @@
 
 .faq-general .second, .faq-general .thirth {
     margin-top: 25px;
+}
+
+@media (max-width: 1000px) {
+    .faq-buttons {
+        flex-direction: column;
+    }
+
+    .container-faq {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .container-faq .faq-title {
+        font-size: 30px;
+    }
 }
