@@ -7,3 +7,7 @@ button {
     font-family: 'Manrope', sans-serif;
 }
 
+button:hover {
+    background-color: grey;
+}
+

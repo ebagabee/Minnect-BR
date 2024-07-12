@@ -34,6 +34,7 @@
     transition: 0.6s ease;
     user-select: none;
     z-index: 1000;
+    width: 55px;
   }
   
   .next {
@@ -48,4 +49,18 @@
   
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  @media (max-width: 525px) {
+    .next, .prev {
+      top: 800px;
+    }
+
+    .next {
+      left: 60%;
+      max-width: 100%;
+    }
+    .prev {
+      left: 30%;
+    }
   }
