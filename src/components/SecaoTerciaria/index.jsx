@@ -9,7 +9,7 @@ function SecaoTerciaria() {
                 <h1>Tem um podcast? <span>Reserve seu próximo convidado através do</span> Minnect.</h1>
                 <p>Conectamos hosts de podcast com os melhores palestrantes do mundo. Orgulhamo-nos de representar apenas os mais conceituados líderes, empresários e ícones culturais.</p>
                 <div className='secaoterciaria__botao'>
-                    <Button background="white" color="black" width="230px" height="65px" content="Reserve seu próximo convidado de podcast" weight="600"/>
+                    <Button background="white" color="#418e8c" width="230px" height="65px" content="Reserve seu próximo convidado de podcast" weight="600"/>
                 </div>
             </div>
             <div className='secaoterciaria__right'>

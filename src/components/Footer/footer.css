@@ -6,6 +6,11 @@ footer {
     margin-top: 150px;
 }
 
+.nav-footer {
+    display: flex;
+    gap: 20px;
+}
+
 .up-footer {
     display: flex;
     width: 90%;
@@ -54,7 +59,7 @@ footer {
     font-size: 16px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1192px) {
     .up-footer nav {
         flex-direction: column;
     }
@@ -62,9 +67,9 @@ footer {
 
 @media screen and (max-width: 767px) {
     footer {
-        height: 380px;
+        height: 500px;
     }
-    
+
     .up-footer {
         text-align: center;
         flex-direction: column;
@@ -77,7 +82,7 @@ footer {
         align-items: center;
         margin-bottom: 10px;
     }
-    
+
     .footer-up-left p {
         max-width: 100%;
     }
@@ -85,6 +90,10 @@ footer {
     .down-footer nav {
         flex-direction: column;
         gap: 10px;
-}
+    }
+
+    .arrow-up {
+        margin-top: 15px;
+    }
 
 }

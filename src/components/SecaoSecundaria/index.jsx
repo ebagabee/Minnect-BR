@@ -20,7 +20,7 @@ function SecaoSecundaria() {
                         <h3>Monetize seu tempo oferecendo consultas individuais ao seu público.</h3>
                     </li>
                 </ul>
-                <Button background="white" color="black" width="230px" height="65px" content="Torne-se um Especialista" weight="600"/>
+                <Button background="white" color="#39888e" width="230px" height="65px" content="Torne-se um Especialista" weight="600"/>
             </div>
             <div className='secaosecundaria__right'>
                 <div className='secaosecundaria__cards'>

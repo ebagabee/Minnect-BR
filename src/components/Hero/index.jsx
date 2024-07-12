@@ -37,8 +37,8 @@ function Hero() {
 
                 <div className="hero-buttons max-w-[464px] text-center">
                     <div className="hero-buttons-container hero-buttons-container--sm flex gap-[20px]">
-                        <Button background="transparent" color="white" width="220px" height="58px" content="Encontre um especialista" fontSize="16px" border="1px solid white" />
-                        <Button background="white" color="black" width="230px" height="58px" content="Torne-se um Especialista" fontSize="16px"/>
+                        <Button background="transparent" color="white" width="220px" weight="600" height="58px" content="Encontre um especialista" fontSize="16px" border="1px solid white" />
+                        <Button background="white" color="#37888f" width="230px" weight="600" height="58px" content="Torne-se um Especialista" fontSize="16px"/>
                     </div>
 
                     <p className='hero-or text-center mt-[25px] text-3xl'>Ou</p>

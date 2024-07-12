@@ -25,7 +25,7 @@ function Talents() {
                 />
             </div>
 
-            <Button background="white" color="black" width="230px" height="65px" content="Veja todos os talentos disponíveis para reserva" weight="600"/>
+            <Button background="white" color="#4b978c" width="230px" height="65px" content="Veja todos os talentos disponíveis para reserva" weight="600"/>
         </section>
     )
 }

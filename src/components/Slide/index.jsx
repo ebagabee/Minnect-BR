@@ -10,7 +10,6 @@ const Slide = () => {
     Slide1,
     Slide2,
     Slide3,
-    // adicione mais URLs de imagens conforme necessário
   ];
 
   const nextSlide = () => {

@@ -25,7 +25,7 @@ function SecaoPrimaria() {
                     </li>
                 </ul>
                 <div className='secaoprimaria__botao'>
-                    <Button background="white" color="black" width="230px" height="58px" content="Encontre um Especialista" />
+                    <Button background="white" color="#519d8f" width="230px" height="58px" weight="600" content="Encontre um Especialista" />
                 </div>
             </div>
         </section>
