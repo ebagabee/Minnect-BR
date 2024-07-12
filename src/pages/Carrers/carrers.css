@@ -31,4 +31,8 @@
     .carreiras {
         width: 85%;
     }
+
+    .carreiras h2 {
+        font-size: 25px;
+    }
 }
