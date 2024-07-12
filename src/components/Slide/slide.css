@@ -5,7 +5,7 @@
     position: relative;
     max-width: 400px;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 100px;
   }
   
@@ -23,7 +23,7 @@
   
   .prev, .next {
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: auto;
@@ -37,15 +37,13 @@
   }
   
   .next {
-    right: 0;
+    right: -50px;
     border-radius: 3px;
-    margin: 50px;
   }
   
   .prev {
-    left: 0;
+    left: -50px;
     border-radius: 3px;
-    margin: 50px;
   }
   
   .prev:hover, .next:hover {
